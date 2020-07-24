@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MyProfessor.API</name>
+    </assembly>
+    <members>
+        <member name="T:MyProfessor.API.Controllers.TeacherController">
+            <summary>
+            This controller belong to techer entity
+            </summary>
+        </member>
+        <member name="M:MyProfessor.API.Controllers.TeacherController.#ctor">
+            <summary>
+            constructor 
+            </summary>
+        </member>
+    </members>
+</doc>
