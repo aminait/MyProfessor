@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "MyProfessor.DataTransferObject/1.0.0": {
+        "runtime": {
+          "MyProfessor.DataTransferObject.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MyProfessor.DataTransferObject/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

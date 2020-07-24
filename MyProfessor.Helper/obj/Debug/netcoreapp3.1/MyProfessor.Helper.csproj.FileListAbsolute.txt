@@ -1,0 +1,17 @@
+C:\Users\Disc Development\source\repos\MyProfessor\MyProfessor.Helper\obj\Debug\netcoreapp3.1\MyProfessor.Helper.csprojAssemblyReference.cache
+C:\Users\Disc Development\source\repos\MyProfessor\MyProfessor.Helper\obj\Debug\netcoreapp3.1\MyProfessor.Helper.AssemblyInfoInputs.cache
+C:\Users\Disc Development\source\repos\MyProfessor\MyProfessor.Helper\obj\Debug\netcoreapp3.1\MyProfessor.Helper.AssemblyInfo.cs
+C:\Users\Disc Development\source\repos\MyProfessor\MyProfessor.Helper\obj\Debug\netcoreapp3.1\MyProfessor.Helper.csproj.CoreCompileInputs.cache
+C:\Users\Disc Development\source\repos\MyProfessor\MyProfessor.Helper\bin\Debug\netcoreapp3.1\MyProfessor.Helper.deps.json
+C:\Users\Disc Development\source\repos\MyProfessor\MyProfessor.Helper\bin\Debug\netcoreapp3.1\MyProfessor.Helper.dll
+C:\Users\Disc Development\source\repos\MyProfessor\MyProfessor.Helper\bin\Debug\netcoreapp3.1\MyProfessor.Helper.pdb
+C:\Users\Disc Development\source\repos\MyProfessor\MyProfessor.Helper\obj\Debug\netcoreapp3.1\MyProfessor.Helper.dll
+C:\Users\Disc Development\source\repos\MyProfessor\MyProfessor.Helper\obj\Debug\netcoreapp3.1\MyProfessor.Helper.pdb
+C:\Users\Amina Ait\Desktop\MyProfessor\MyProfessor.Helper\bin\Debug\netcoreapp3.1\MyProfessor.Helper.deps.json
+C:\Users\Amina Ait\Desktop\MyProfessor\MyProfessor.Helper\bin\Debug\netcoreapp3.1\MyProfessor.Helper.dll
+C:\Users\Amina Ait\Desktop\MyProfessor\MyProfessor.Helper\bin\Debug\netcoreapp3.1\MyProfessor.Helper.pdb
+C:\Users\Amina Ait\Desktop\MyProfessor\MyProfessor.Helper\obj\Debug\netcoreapp3.1\MyProfessor.Helper.AssemblyInfoInputs.cache
+C:\Users\Amina Ait\Desktop\MyProfessor\MyProfessor.Helper\obj\Debug\netcoreapp3.1\MyProfessor.Helper.AssemblyInfo.cs
+C:\Users\Amina Ait\Desktop\MyProfessor\MyProfessor.Helper\obj\Debug\netcoreapp3.1\MyProfessor.Helper.csproj.CoreCompileInputs.cache
+C:\Users\Amina Ait\Desktop\MyProfessor\MyProfessor.Helper\obj\Debug\netcoreapp3.1\MyProfessor.Helper.dll
+C:\Users\Amina Ait\Desktop\MyProfessor\MyProfessor.Helper\obj\Debug\netcoreapp3.1\MyProfessor.Helper.pdb
