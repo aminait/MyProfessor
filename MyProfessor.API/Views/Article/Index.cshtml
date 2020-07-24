@@ -1,0 +1,64 @@
+﻿<!--Injecting article models-->
+@model IEnumerable<Article>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!--
+
+3 sections total:
+There should be a rating section (out of 5 stars)
+
+Professor details:
+    name
+    department
+    university
+
+Reviews section
+
+-->
+<h2 class="text-center">Find a course or professor</h2>
+<!--This is where the search bar will go-->
+<form asp-controller="Article" asp-action="Index" style="margin:auto;max-width:250px">
+    <input type="text" placeholder="Search.." name="search">
+    <button type="submit"><i class="fa fa-search"></i></button>
+</form>
+
+<!--
+
+Or find and post reviews
+    search bar: search a course or professor as the placeholder
+
+-->
+
+<br />
+
+<h2 class="text-center">Or read an article instead</h2>
+
+<!--<p>
+
+    Select from Model.Count()
+    categories:
+</p>-->
+<div id="article-wrapper">
+    @foreach (var post in Model)
+    {
+
+        <span id="article-title">   @post.Name   </span>
+
+        <img src=@post.ItemArtUrl />
+       <!--
+                <ul>
+                    <!-- actionmethod, controller name, route arguments
+        <li id="buttonLink">Html.ActionLink(post.Title, "Browse", "Article", new { post = post.Title }, null)</li>
+                </ul>-->
+    }
+</div>
+
+
+
+
+
+
+
+
