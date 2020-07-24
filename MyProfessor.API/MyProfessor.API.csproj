@@ -1,0 +1,55 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>MyProfessor.API.xml</DocumentationFile>
+    <NoWarn>1701;1702;1591</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="MyStaticFiles\images\article1.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.0.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.0.0" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="9.0.0" />
+    <PackageReference Include="HangFire" Version="1.7.11" />
+    <PackageReference Include="Microsoft.AspNet.Identity.Owin" Version="2.2.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.5" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.5" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.5" />
+    <PackageReference Include="Microsoft.Extensions.Diagnostics.HealthChecks" Version="3.1.5" />
+    <PackageReference Include="NLog.Web.AspNetCore" Version="4.9.2" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.5.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MyProfessor.DataAccess\MyProfessor.DataAccess.csproj" />
+    <ProjectReference Include="..\MyProfessor.DataTransferObject\MyProfessor.DataTransferObject.csproj" />
+    <ProjectReference Include="..\MyProfessor.Helper\MyProfessor.Helper.csproj" />
+    <ProjectReference Include="..\MyProfessor.Models\MyProfessor.Models.csproj" />
+    <ProjectReference Include="..\MyProfessor.Services\MyProfessor.Services.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="MyProfessor.API.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Views\Account\" />
+    <Folder Include="wwwroot\Img\" />
+  </ItemGroup>
+
+
+</Project>
