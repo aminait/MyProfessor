@@ -19,7 +19,7 @@ namespace MyProfessor.API.Controllers
             _context = context;
         }
 
-        [HttpGet("/coursereviews")]
+        [HttpGet("/course-reviews")]
         public async Task<IActionResult> GetCourses()
         {
             var courses = await _context.GetAllCourseReviews();
@@ -27,7 +27,7 @@ namespace MyProfessor.API.Controllers
         }
 
 
-        [HttpGet("/coursereviews/{id}")]
+        [HttpGet("/course-reviews/{id}")]
         public async Task<IActionResult> GetCourseById(int id)
         {
             var courses = await _context.GetCourseReviewById(id);
@@ -36,13 +36,12 @@ namespace MyProfessor.API.Controllers
 
         [HttpPost]
         //[ValidateAntiForgeryToken]
-        //i think this is usefuless
         public async Task<IActionResult> AddNewCourseReview(CourseReview courseReview)
         {
             return Ok(await _context.AddCourseReview(courseReview));
         }
 
-        [HttpPost("/coursereviews/create")]
+        [HttpPost("/course-reviews/create")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> CreateCourseReview([Bind("Stars, Review")]CourseReview courseReview)
         {
@@ -56,7 +55,6 @@ namespace MyProfessor.API.Controllers
             }
             catch (DataException /* dex */)
             {
-                //Log the error (uncomment dex variable name and add a line here to write a log.
                 ModelState.AddModelError("", "Unable to save changes. Try again, and if the problem persists see your system administrator.");
             }
             //create a view for adding a new article (writing form)
